@@ -30,7 +30,7 @@ beforeEach(() => {
 })
 
 describe('Sprint 5 Module', () => {
-  describe('Task 1 - Class name of widget', () => {
+  describe.only('Task 1 - Class name of widget', () => {
     test('👉 [1] All 4 widgets have a "widget" class name', () => {
       expect(document.querySelectorAll('section .widget')).toHaveLength(4)
     })
